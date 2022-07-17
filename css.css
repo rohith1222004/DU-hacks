@@ -1,0 +1,76 @@
+.let{
+    color:#243D25;
+    font-weight: 400;
+    font-family: 'Actor', sans-serif;
+    margin-left: 15px;
+}
+.getst{
+   color: #243D25;
+   font-family: 'Acme', sans-serif;
+}
+
+.firstpage{
+    background-color: #AED6CA;
+    height: 800px;
+    width: 380px;
+    border-color: black;
+    border-radius: 35px;
+}
+.map{
+    margin-left: 40px;
+}
+.turn{
+    font-family: 'Adamina', serif;
+    color: #243D25;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.keela{
+    display: flex;
+    flex-direction: row;
+    /* background: red; */
+}
+.home{
+    /* background-color: green; */
+    width: 100px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+.service{
+    /* background-color: yellow; */
+    width: 100px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+}
+.support{
+    /* background-color: blue; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+}
+.profile{
+    /* background-color: brown; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+}

@@ -1,0 +1,145 @@
+.thirdpage{
+    background-color: #AED6CA;
+    height: 900px;
+    width: 380px;
+    border-color: black;
+    border-radius: 35px;
+}
+.topbar{
+    /* background-color:red; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.tline{
+    height: 80px;
+    /* background-color: green; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wserv{
+    height: 80px;
+    /* background-color: yellow; */
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #243D25;
+}
+.qmark{
+    height: 80px;
+    /* background-color:blueviolet; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Acme', sans-serif;
+}
+.whline{
+    height: 6px;
+    background-color:white;
+}
+.fourboxes{
+    /* background-color: red;
+    height: 300px; */
+}
+.box1{
+    background-color: white;
+    height: 300px;
+    width: 170px;
+    margin-left: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    background-color: white;
+    height: 300px;
+    width: 170px;
+    margin-left: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first2{
+    /* background-color: red; */
+    height: 300px;
+    display: flex;
+}
+.next2{
+    /* background-color:blue; */
+    height: 300px;
+    display: flex;
+}
+.box3{
+    background-color: white;
+    height: 300px;
+    width: 170px;
+    margin-left: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    background-color: white;
+    height: 300px;
+    width: 170px;
+    margin-left: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.keela{
+    display: flex;
+    flex-direction: row;
+    /* background: red; */
+}
+.home{
+    /* background-color: green; */
+    width: 100px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    /* color: white; */
+}
+.service{
+    /* background-color: yellow; */
+    width: 100px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+.support{
+    /* background-color: blue; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+}
+.profile{
+    /* background-color: brown; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dustbin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="dustbin_page">
+
+   
+        <div class="header">
+            <img class="threeline" src="threeline.png" alt="">
+            <h4>Service</h4>
+            <img class="question" src="question.png" alt="">
+        </div>
+
+        <div class="dustbin_img">
+            <img  src="dustbin.png" alt="">
+        </div>
+
+        <div class="location">
+            <p>Location</p>
+            <input class="location_inp" type="text">
+        </div>
+
+        <div class="location">
+            <p>Problem</p>
+            <!-- <input class="location_inp" type="text"> -->
+
+            <form autocomplete="off" action="/action_page.php">
+                <div class="autocomplete" style="width:300px;">
+                  <input id="myInput" type="text" name="problem"  class="location_inp">
+                </div>
+                <!-- <input type="submit"> -->
+                <script>autocomplete(document.getElementById("myInput"), problems);</script>
+            </form>
+
+
+        </div>
+            <div class="sub_btn">
+              <button class="submit_button">Submit</button>
+            </div>
+
+
+            <div class="keela"> 
+                <div class="home">
+                    <a href="index (1).html">
+                        <img src="homeg.png" alt=""> 
+                    </a>
+                    <p>Home</p>
+                </div>
+                
+            <div class="service">
+    
+                <a href="3rdpage.html">
+                    <img src="service-white.png" alt="">
+                </a>
+    
+                <p>Service</p>
+    
+            </div>
+    
+                <div class="support">
+    
+                    <a href="4thpage.html">
+                        <img src="support.png" alt="">
+                    </a>
+    
+                    <p>Support</p>
+    
+                </div>
+                
+    
+               <div class="profile">
+    
+                    <a href="">
+                        <img src="profile.png" alt="">
+                    </a>
+    
+    
+                    <p>Profile</p>
+               </div>
+               
+    
+            </div>
+    </div>
+
+</body>
+</html>
